@@ -1,0 +1,12 @@
+{
+  "name": "async-flow-example",
+  "version": "1.0.0",
+  "description": "Async flow example.",
+  "main": "index.js",
+  "repository": "https://github.com/AlfieriChou/async-flow-example",
+  "author": "AlfieriChou <alfierichou@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.1.0"
+  }
+}
