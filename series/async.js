@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const async = require('async')
 
-async.parallel([
+async.series([
   (callback) => {
     fs.readFile(path.resolve(__dirname, '../file/test1.txt'), 'utf8', callback)
   },
